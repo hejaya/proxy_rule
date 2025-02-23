@@ -598,7 +598,10 @@ DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhongsou.com
 DOMAIN-SUFFIX,zhuihd.com
-
+DOMAIN-SUFFIX,gthree-sky.com
+DOMAIN-SUFFIX,gthree.xyz
+DOMAIN-SUFFIX,no2say.com
+DOMAIN-SUFFIX,ly-sky.com
 
 
 DOMAIN-SUFFIX,42r.cn
