@@ -1,12 +1,15 @@
+package script;
+
 import java.io.*;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
 /**
- * TODO
- * @author guanzh
+ * v2ray domain data to common rule file
+ * @author gthree
  * @time 2025/2/23 16:39
  */public class DomainExtractor {
+
     private final Set<String> domains = new LinkedHashSet<>(); // 保持顺序并去重
     private final String basePath; // 规则文件的根目录路径
 
@@ -71,7 +74,7 @@ import java.util.Set;
     public static void main(String[] args) throws IOException {
 
         String tag = "category-ai-chat-!cn";
-        String basePath = "./data";
+        String basePath = "/Users/gthree/dev/devProjects/myProjects/domain-list-community/data";
 
         String outputFile = tag + ".txt"; // 输出文件名
 
