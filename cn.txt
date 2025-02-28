@@ -570,6 +570,7 @@ DOMAIN-SUFFIX,wscdns.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xiachufang.com
+DOMAIN-SUFFIX,com.xiachufang.recipe
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xinhuanet.com
@@ -6448,3 +6449,4 @@ DOMAIN-SUFFIX,hitevision-solutions.com
 DOMAIN-SUFFIX,jslife.net
 DOMAIN-SUFFIX,nanhaicorp.com
 DOMAIN-SUFFIX,fanmingming.com
+DOMAIN-SUFFIX,ippzone.com
