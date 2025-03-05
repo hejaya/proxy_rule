@@ -1,4 +1,4 @@
-DOMAIN-SUFFIX,com.cn
+DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,xiachufang.recipe
 DOMAIN-SUFFIX,fanmingming.com
 DOMAIN-SUFFIX,ippzone.com
@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,gthree-sky.com
 DOMAIN-SUFFIX,gthree.xyz
 DOMAIN-SUFFIX,no2say.com
 DOMAIN-SUFFIX,ly-sky.com
+DOMAIN-SUFFIX,izuiyou.com
 
 DOMAIN-SUFFIX,42r.cn
 DOMAIN-SUFFIX,5566ua.com
