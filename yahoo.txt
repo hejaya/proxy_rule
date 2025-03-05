@@ -2,9 +2,6 @@ DOMAIN-SUFFIX,flic.kr
 DOMAIN-SUFFIX,flickr.com
 DOMAIN-SUFFIX,flickr.net
 DOMAIN-SUFFIX,staticflickr.com
-DOMAIN-SUFFIX,ads.yahoo.com
-DOMAIN-SUFFIX,gemini.yahoo.com
-DOMAIN-SUFFIX,ysm.yahoo.com
 DOMAIN-SUFFIX,yahoo.ae
 DOMAIN-SUFFIX,yahoo.am
 DOMAIN-SUFFIX,yahoo.as
@@ -24,7 +21,6 @@ DOMAIN-SUFFIX,yahoo.cg
 DOMAIN-SUFFIX,yahoo.ch
 DOMAIN-SUFFIX,yahoo.cl
 DOMAIN-SUFFIX,yahoo.cm
-DOMAIN-SUFFIX,yahoo.cn
 DOMAIN-SUFFIX,yahoo.co.ao
 DOMAIN-SUFFIX,yahoo.co.bw
 DOMAIN-SUFFIX,yahoo.co.ck
@@ -53,7 +49,6 @@ DOMAIN-SUFFIX,yahoo.com.bd
 DOMAIN-SUFFIX,yahoo.com.bo
 DOMAIN-SUFFIX,yahoo.com.br
 DOMAIN-SUFFIX,yahoo.com.bz
-DOMAIN-SUFFIX,yahoo.com.cn
 DOMAIN-SUFFIX,yahoo.com.co
 DOMAIN-SUFFIX,yahoo.com.do
 DOMAIN-SUFFIX,yahoo.com.ec

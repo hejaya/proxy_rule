@@ -136,8 +136,6 @@ DOMAIN-SUFFIX,wwis-dubc1-vip96.adobe.com
 DOMAIN-SUFFIX,wwis-dubc1-vip97.adobe.com
 DOMAIN-SUFFIX,wwis-dubc1-vip98.adobe.com
 DOMAIN-SUFFIX,wwis-dubc1-vip99.adobe.com
-DOMAIN-SUFFIX,advertising.adobe.com
-DOMAIN-SUFFIX,tubemogul.com
 DOMAIN-SUFFIX,typekit.com
 DOMAIN-SUFFIX,typekit.net
 DOMAIN-SUFFIX,10xfotolia.com
@@ -154,7 +152,6 @@ DOMAIN-SUFFIX,adobeaemcloud.net
 DOMAIN-SUFFIX,adobeawards.com
 DOMAIN-SUFFIX,adobecontent.io
 DOMAIN-SUFFIX,adobecreativityawards.com
-DOMAIN-SUFFIX,adobedc.cn
 DOMAIN-SUFFIX,adobedc.net
 DOMAIN-SUFFIX,adobedemo.com
 DOMAIN-SUFFIX,adobedtm.com

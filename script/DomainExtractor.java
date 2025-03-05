@@ -17,7 +17,15 @@ import java.util.Set;
         this.basePath = basePath;
     }
 
-    public Set<String> extractDomains(String filename) throws IOException {
+    /**
+     * 提取域名
+     * @author guanzh
+     * @param filename
+     * @param attributeParam @cn @!cn @ads
+     * @return Set<String>
+     * @time 2025/3/5 09:33
+     */
+    public Set<String> extractDomains(String filename, String attributeParam) throws IOException {
         File file = new File(basePath, filename);
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line;
@@ -30,22 +38,57 @@ import java.util.Set;
                 if (line.startsWith("include:")) {
                     // 递归处理 include 文件，并保持顺序
                     String includedFile = line.substring("include:".length()).trim();
-                    extractDomains(includedFile); // 先加载被包含文件的域名
+                    extractDomains(includedFile, attributeParam); // 先加载被包含文件的域名
                 } else if (line.startsWith("domain:")) {
-                    String domainPart = line.substring("domain:".length()).split("\\s+")[0];
-                    addDomain(domainPart);
+                    String[] split = line.substring("domain:".length()).split("\\s+");
+                    String domainPart = split[0];
+                    String attributePart = null;
+                    if (split.length ==2){
+                        attributePart = split[1];
+                    }
+                    if (checkDomainAttribute(attributeParam, attributePart)) {
+                        addDomain(domainPart);
+                    }
                 } else if (line.startsWith("full:")) {
-                    String domain = line.substring("full:".length()).split("\\s+")[0];
-                    addDomain(domain);
-                } else {
-                    String domain = line.split("\\s+")[0];
-                    if (isValidDomain(domain)) {
+                    String[] split = line.substring("full:".length()).split("\\s+");
+                    String domain = split[0];
+                    String attributePart = null;
+                    if (split.length ==2){
+                        attributePart = split[1];
+                    }
+                    if (checkDomainAttribute(attributeParam, attributePart)) {
                         addDomain(domain);
+                    }
+                } else {
+                    String[] split = line.split("\\s+");
+                    String domain = split[0];
+                    String attributePart = null;
+                    if (split.length ==2){
+                        attributePart = split[1];
+                    }
+                    if (isValidDomain(domain)) {
+                        if (checkDomainAttribute(attributeParam, attributePart)) {
+                            addDomain(domain);
+                        }
                     }
                 }
             }
         }
         return domains;
+    }
+
+    /**
+     * 检查规则属性
+     * @author guanzh
+     * @param attributeParam @cn @!cn @ads
+     * @param attribute
+     * @return boolean
+     * @time 2025/3/5 09:51
+     */
+    private boolean checkDomainAttribute(String attributeParam, String attribute) {
+        if (attributeParam == null) return true;
+        if (attribute == null) return true;
+        return attributeParam.equals(attribute);
     }
 
     // 添加域名并去重（LinkedHashSet 自动处理）
@@ -73,13 +116,27 @@ import java.util.Set;
 
     public static void main(String[] args) throws IOException {
 
-        String tag = "category-ai-chat-!cn";
+        //String tag = "cn";
+        //String tag = "geolocation-!cn";
+        //String tag = "category-ads-all";
+        //String tag = "google";
+        //String tag = "microsoft";
+        //String tag = "category-dev";
+        //String tag = "adobe";
+        //String tag = "category-ai-chat-!cn";
+        //String tag = "apple";
+        //String tag = "github";
+        //String tag = "yahoo";
+        String tag = "youtube";
+
         String basePath = "/Users/gthree/dev/devProjects/myProjects/domain-list-community/data";
 
         String outputFile = tag + ".txt"; // 输出文件名
-
         DomainExtractor extractor = new DomainExtractor(basePath);
-        Set<String> domains = extractor.extractDomains(tag); // 入口文件
+        //@cn @!cn @ads
+        //Set<String> domains = extractor.extractDomains(tag, "@cn"); // 入口文件
+        Set<String> domains = extractor.extractDomains(tag, "@!cn");
+        //Set<String> domains = extractor.extractDomains(tag, "@ads");
 
         System.out.println("domains size = " + domains.size());
         // 输出结果
