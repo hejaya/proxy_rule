@@ -8,6 +8,10 @@ DOMAIN-SUFFIX,no2say.com
 DOMAIN-SUFFIX,ly-sky.com
 DOMAIN-SUFFIX,izuiyou.com
 DOMAIN-SUFFIX,app-analytics-services.com
+DOMAIN-SUFFIX,chatanywhere.tech
+DOMAIN-SUFFIX,closeai-proxy.xyz
+DOMAIN-SUFFIX,openai-proxy.org
+DOMAIN-SUFFIX,siliconflow.com
 
 DOMAIN-SUFFIX,42r.cn
 DOMAIN-SUFFIX,5566ua.com
