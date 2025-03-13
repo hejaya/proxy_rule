@@ -63,6 +63,11 @@ import java.util.Set;
                     String[] split = line.split("\\s+");
                     String domain = split[0];
                     String attributePart = null;
+                    if (domain.startsWith("regexp:")){
+                        //regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
+                        domains.add(domain);
+                        continue;
+                    }
                     if (split.length ==2){
                         attributePart = split[1];
                     }
@@ -127,7 +132,10 @@ import java.util.Set;
         //String tag = "apple";
         //String tag = "github";
         //String tag = "yahoo";
-        String tag = "youtube";
+        //String tag = "youtube";
+        //String tag = "category-entertainment";
+        //String tag = "spotify";
+        String tag = "netflix";
 
         String basePath = "/Users/gthree/dev/devProjects/myProjects/domain-list-community/data";
 
@@ -140,7 +148,14 @@ import java.util.Set;
 
         System.out.println("domains size = " + domains.size());
         // 输出结果
-        domains.forEach(a -> System.out.println("DOMAIN-SUFFIX," + a));
+        domains.forEach(a -> {
+            if (a.startsWith("regexp:")) {
+                //URL-REGEX,
+                System.out.println("URL-REGEX," + a.replaceFirst("regexp:", ""));
+            }else {
+                System.out.println("DOMAIN-SUFFIX," + a);
+            }
+        });
 
 
     }
