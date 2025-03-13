@@ -779,3 +779,6 @@ DOMAIN-SUFFIX,yfanads.com
 DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,zxid-api.mobileservice.cn
 DOMAIN-SUFFIX,zxid-m.mobileservice.cn
+
+URL-REGEX,^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
+URL-REGEX,^speed\.(coe|open)\.ad\.[a-z]{2,6}\.prod\.hosts\.ooklaserver\.net$

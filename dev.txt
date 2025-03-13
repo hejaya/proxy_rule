@@ -495,3 +495,6 @@ DOMAIN-SUFFIX,xposed.info
 DOMAIN-SUFFIX,yarnpkg.com
 DOMAIN-SUFFIX,zsh.org
 DOMAIN-SUFFIX,huggingface.co
+
+URL-REGEX,.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$
+URL-REGEX,^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$

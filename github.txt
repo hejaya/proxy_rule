@@ -25,3 +25,5 @@ DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
 DOMAIN-SUFFIX,blob.core.windows.net
 DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+
+URL-REGEX,^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$

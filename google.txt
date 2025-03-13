@@ -885,3 +885,7 @@ DOMAIN-SUFFIX,xn--gogl-1nd42e.com
 DOMAIN-SUFFIX,xplr.co
 DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
+
+URL-REGEX,^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
+URL-REGEX,^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.xn--ngstr-lra8j\.com$
+URL-REGEX,^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.googlevideo\.com$
