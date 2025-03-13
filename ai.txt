@@ -47,3 +47,5 @@ DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,perplexity.ai
