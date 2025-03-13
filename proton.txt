@@ -1,2 +1,6 @@
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonweb.com
+DOMAIN-SUFFIX,pm.me
+DOMAIN-SUFFIX,protonmail.ch
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,protonstatus.com
