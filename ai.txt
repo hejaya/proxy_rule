@@ -48,6 +48,6 @@ DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,brave.com
-DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,bravesoftware.com
 
 URL-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
