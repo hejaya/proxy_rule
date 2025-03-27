@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -31,6 +33,8 @@ DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,grok.com
@@ -47,6 +51,7 @@ DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,openart.ai
+DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,bravesoftware.com
 
