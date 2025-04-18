@@ -54,5 +54,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,bravesoftware.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,chutes.ai
 
 URL-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
