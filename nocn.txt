@@ -1,3 +1,7 @@
+DOMAIN-SUFFIX,macked.app
+DOMAIN-SUFFIX,macat.vip
+DOMAIN-SUFFIX,xclient.info
+
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
