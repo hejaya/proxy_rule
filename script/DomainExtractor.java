@@ -120,6 +120,7 @@ import java.util.Set;
     }
 
     public static void main(String[] args) throws IOException {
+        //String tag = "private";
 
         //String tag = "cn";
         //String tag = "geolocation-!cn";
@@ -128,22 +129,28 @@ import java.util.Set;
         //String tag = "microsoft";
         //String tag = "category-dev";
         //String tag = "adobe";
-        //String tag = "category-ai-chat-!cn";
+        //String tag = "category-ai-!cn";
         //String tag = "apple";
         //String tag = "github";
         //String tag = "yahoo";
         //String tag = "youtube";
         //String tag = "category-entertainment";
         //String tag = "spotify";
-        String tag = "netflix";
+        //String tag = "netflix";
+        //String tag = "tiktok";
+        //String tag = "paypal";
+        //String tag = "category-communication";
+        String tag = "category-porn";
+        //String tag = "reddit";
 
         String basePath = "/Users/gthree/dev/devProjects/myProjects/domain-list-community/data";
 
         String outputFile = tag + ".txt"; // 输出文件名
         DomainExtractor extractor = new DomainExtractor(basePath);
         //@cn @!cn @ads
+        Set<String> domains = extractor.extractDomains(tag, null);
         //Set<String> domains = extractor.extractDomains(tag, "@cn"); // 入口文件
-        Set<String> domains = extractor.extractDomains(tag, "@!cn");
+        //Set<String> domains = extractor.extractDomains(tag, "@!cn");
         //Set<String> domains = extractor.extractDomains(tag, "@ads");
 
         System.out.println("domains size = " + domains.size());
