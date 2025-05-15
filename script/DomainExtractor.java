@@ -140,8 +140,10 @@ import java.util.Set;
         //String tag = "tiktok";
         //String tag = "paypal";
         //String tag = "category-communication";
-        String tag = "category-porn";
+        //String tag = "category-porn";
         //String tag = "reddit";
+        String tag = "cloudflare";
+
 
         String basePath = "/Users/gthree/dev/devProjects/myProjects/domain-list-community/data";
 
