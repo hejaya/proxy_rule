@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,chatanywhere.tech
 DOMAIN-SUFFIX,closeai-proxy.xyz
 DOMAIN-SUFFIX,openai-proxy.org
 DOMAIN-SUFFIX,siliconflow.com
+DOMAIN-SUFFIX,kqgfbs.com
+DOMAIN-SUFFIX,zhuoloufs.com
 
 DOMAIN-SUFFIX,42r.cn
 DOMAIN-SUFFIX,5566ua.com
