@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,ippzone.com
 DOMAIN-SUFFIX,gthree-sky.com
 DOMAIN-SUFFIX,gthree.xyz
 DOMAIN-SUFFIX,no2say.com
+DOMAIN-SUFFIX,whynosay.top
 DOMAIN-SUFFIX,ly-sky.com
 DOMAIN-SUFFIX,izuiyou.com
 DOMAIN-SUFFIX,app-analytics-services.com
