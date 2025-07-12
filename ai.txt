@@ -57,5 +57,6 @@ DOMAIN-SUFFIX,bravesoftware.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,chutes.ai
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,together.ai
 
 URL-REGEX,^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
