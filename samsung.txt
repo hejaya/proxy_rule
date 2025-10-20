@@ -13,3 +13,7 @@ DOMAIN-SUFFIX,samsunggalaxyfriends.com
 DOMAIN-SUFFIX,samsungknox.com
 DOMAIN-SUFFIX,samsungqbe.com
 DOMAIN-SUFFIX,samsungosp.com
+DOMAIN-SUFFIX,samsungconsent.com
+DOMAIN-SUFFIX,samsunghealth.com
+DOMAIN-SUFFIX,samsungiotcloud.com
+DOMAIN-SUFFIX,samsungrs.com

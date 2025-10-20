@@ -142,7 +142,14 @@ import java.util.Set;
         //String tag = "category-communication";
         //String tag = "category-porn";
         //String tag = "reddit";
-        String tag = "cloudflare";
+        //String tag = "duckduckgo";
+        //String tag = "facebook";
+        //String tag = "imtagram";
+        //String tag = "cloudflare";
+        //String tag = "whatsapp";
+        String tag = "twitter";
+
+
 
 
         String basePath = "/Users/gthree/dev/devProjects/myProjects/domain-list-community/data";

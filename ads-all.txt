@@ -23,6 +23,9 @@ DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,apilog-web.acfun.cn
 DOMAIN-SUFFIX,adcolony.com
 DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,adjust.net.in
+DOMAIN-SUFFIX,adjust.io
+DOMAIN-SUFFIX,adjust.world
 DOMAIN-SUFFIX,advertising.adobe.com
 DOMAIN-SUFFIX,tubemogul.com
 DOMAIN-SUFFIX,a.alimama.cn
@@ -378,6 +381,7 @@ DOMAIN-SUFFIX,mail-ads.google.com
 DOMAIN-SUFFIX,marketingplatform.google.com
 DOMAIN-SUFFIX,urchin.com
 DOMAIN-SUFFIX,analytics.google.com
+URL-REGEX,^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$
 DOMAIN-SUFFIX,assets.growingio.com
 DOMAIN-SUFFIX,mlog.hiido.com
 DOMAIN-SUFFIX,ylog.hiido.com
@@ -407,11 +411,13 @@ DOMAIN-SUFFIX,msg2.video.qiyi.com
 DOMAIN-SUFFIX,policy.video.iqiyi.com
 DOMAIN-SUFFIX,yuedu.iqiyi.com
 DOMAIN-SUFFIX,ads.union.jd.com
+DOMAIN-SUFFIX,ads-union.jd.com
 DOMAIN-SUFFIX,c-nfa.jd.com
 DOMAIN-SUFFIX,cps.360buy.com
+DOMAIN-SUFFIX,gia.jd.com
+DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,jzt.jd.com
 DOMAIN-SUFFIX,stat.m.jd.com
-DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,adbkwai.com
 DOMAIN-SUFFIX,adkwai.com
 DOMAIN-SUFFIX,adukwai.com
@@ -456,6 +462,7 @@ DOMAIN-SUFFIX,ogury.com
 DOMAIN-SUFFIX,presage.io
 DOMAIN-SUFFIX,ogury.co
 DOMAIN-SUFFIX,onesignal.com
+URL-REGEX,^speed\.(coe|open)\.ad\.[a-z]{2,6}\.prod\.hosts\.ooklaserver\.net$
 DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,openxadexchange.com
 DOMAIN-SUFFIX,openxcdn.net
@@ -549,7 +556,6 @@ DOMAIN-SUFFIX,adnet.sohu.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,adv-sv-show.focus.cn
 DOMAIN-SUFFIX,aty.sohu.com
-DOMAIN-SUFFIX,data.vod.itc.cn
 DOMAIN-SUFFIX,epro.sogou.com
 DOMAIN-SUFFIX,fpb.sohu.com
 DOMAIN-SUFFIX,go.sohu.com
@@ -703,8 +709,6 @@ DOMAIN-SUFFIX,val.api.youku.com
 DOMAIN-SUFFIX,wan.youku.com
 DOMAIN-SUFFIX,ykatr.youku.com
 DOMAIN-SUFFIX,ykrec.youku.com
-DOMAIN-SUFFIX,zynga.com
-DOMAIN-SUFFIX,zyngaplayersupport.com
 DOMAIN-SUFFIX,51y5.net
 DOMAIN-SUFFIX,a.adtng.com
 DOMAIN-SUFFIX,aaxads.com
@@ -733,7 +737,6 @@ DOMAIN-SUFFIX,img-bss.csdn.net
 DOMAIN-SUFFIX,imglnkc.com
 DOMAIN-SUFFIX,imglnkd.com
 DOMAIN-SUFFIX,innovid.com
-DOMAIN-SUFFIX,ja2.gamersky.com
 DOMAIN-SUFFIX,jads.co
 DOMAIN-SUFFIX,jl3.yjaxa.top
 DOMAIN-SUFFIX,juicyads.com
@@ -777,6 +780,10 @@ DOMAIN-SUFFIX,unioncom.cc
 DOMAIN-SUFFIX,yfanads.cn
 DOMAIN-SUFFIX,yfanads.com
 DOMAIN-SUFFIX,shuzilm.cn
+DOMAIN-SUFFIX,china-caa.org
+DOMAIN-SUFFIX,cnaa123.com
+DOMAIN-SUFFIX,chinaciaf.org
+DOMAIN-SUFFIX,iabchina.cn
 DOMAIN-SUFFIX,zxid-api.mobileservice.cn
 DOMAIN-SUFFIX,zxid-m.mobileservice.cn
 

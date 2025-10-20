@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,spotifycodes.com
 DOMAIN-SUFFIX,spotifyforbrands.com
 DOMAIN-SUFFIX,spotifyjobs.com
 DOMAIN-SUFFIX,spotify.link
+DOMAIN-SUFFIX,tospotify.com
 DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
 DOMAIN-SUFFIX,audio4-ak-spotify-com.akamaized.net
 DOMAIN-SUFFIX,cdn-spotify-experiments.conductrics.com
@@ -20,10 +21,5 @@ DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
 DOMAIN-SUFFIX,spotify.com.edgesuite.net
 DOMAIN-SUFFIX,spotify.map.fastly.net
 DOMAIN-SUFFIX,spotify.map.fastlylb.net
-DOMAIN-SUFFIX,spotify-com.akamaized.net
-DOMAIN-SUFFIX,spotify.app.link
-DOMAIN-SUFFIX,spotifynewsroom.jp
-DOMAIN-SUFFIX,spotilocal.com
-DOMAIN-SUFFIX,tospotify.com
 IP-CIDR,104.154.127.126/32,no-resolve
 IP-CIDR,35.186.224.47/32,no-resolve
