@@ -1,3 +1,5 @@
+DOMAIN,update.9mod.com
+
 DOMAIN-SUFFIX,7box.vip
 DOMAIN-SUFFIX,ad-delivery.net
 DOMAIN-SUFFIX,adinplay.com
