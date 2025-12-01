@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,ping.pe
