@@ -4,3 +4,16 @@ DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,ping.pe
+DOMAIN-SUFFIX,ipwho.is
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipapi.is
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipwhois.io
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,iplocation.net
+DOMAIN-SUFFIX,ip2location.io
+DOMAIN-SUFFIX,freeipapi.com
+DOMAIN-SUFFIX,ipdata.co
+DOMAIN-SUFFIX,ipstack.com
