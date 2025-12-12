@@ -17,3 +17,4 @@ DOMAIN-SUFFIX,ip2location.io
 DOMAIN-SUFFIX,freeipapi.com
 DOMAIN-SUFFIX,ipdata.co
 DOMAIN-SUFFIX,ipstack.com
+DOMAIN-SUFFIX,myip.com
