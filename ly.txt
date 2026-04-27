@@ -9,3 +9,4 @@ IP-CIDR,192.168.60.0/24,no-resolve
 IP-CIDR,172.17.7.0/24,no-resolve
 IP-CIDR,172.17.9.0/24,no-resolve
 IP-CIDR,172.16.26.0/24,no-resolve
+DOMAIN-SUFFIX,jira.ly-sky.com
