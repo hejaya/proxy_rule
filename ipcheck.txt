@@ -19,3 +19,4 @@ DOMAIN-SUFFIX,ipdata.co
 DOMAIN-SUFFIX,ipstack.com
 DOMAIN-SUFFIX,myip.com
 DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,net.coffee
